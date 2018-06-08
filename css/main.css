@@ -1,0 +1,104 @@
+.btnClass{
+    border-style: solid;
+}
+
+.box {
+    display : block;
+    background-color: #6f5499;
+    margin: auto;
+    color: white;
+    animation: slide-up 0.4s ease;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.info {
+    background-color: #d84a38;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+.info.on{
+    background-color: greenyellow;
+    color: black;
+}
+
+button{
+    box-shadow: 0px 0px 12px 1px gray;
+}
+
+.Button{
+    background-color: skyblue;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.7em 0.6em 0.7em;
+    box-shadow: 0px 0px 12px 1px gray;
+}
+
+.Button.on{
+    background-color: #d84a38;
+    color: white;
+}
+
+input[type="file"] {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip:rect(0,0,0,0);
+	border: 0;
+}
+
+label {
+	background-color: #006fff;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    margin: 0 0 1em 0;
+    padding: 0.5em 0.7em 0.6em 0.7em;
+    box-shadow: 0px 0px 12px 1px gray;
+}
+
+/* named upload */
+.upload-name {
+    padding: 0.5em 0.7em 0.6em 0.7em;
+    font-size: 0.8em;
+    font-family: inherit;
+    line-height: normal;
+    vertical-align: middle;
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-bottom-color: #e2e2e2;
+    border-radius: .25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: 0px 0px 12px 1px gray;
+}
+
+.tut{
+    position: absolute;
+    z-index: 3;
+}

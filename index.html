@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no"/>
+        <link rel="stylesheet" type="text/css" href="./css/main.css"/>
+        <title>LaunchPAD:JS</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./js/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./js/jszip.min.js"></script>
+        <script type="text/javascript" src="./js/velocity.js"></script>
+        <script type="text/javascript" src="./js/audio.js"></script>
+        <span id="fg"></span>
+        <div class="box" id="backtest"></div>
+        <br>
+        <div align="center">
+            <input class="upload-name" value="File Select" disabled="disabled">
+            <label for="zipUp">Upload</label>
+            <input class="upload-hidden" id="zipUp" type="file" accept="application/zip"/>
+            <input class="Button" type="button" id='fsBtn' value="File SET"/>
+            <input class="Button" type="button" id='atBtn' value="AutoPlay"/>
+            <input class="Button" type="button" id='stBtn' value="STOP"/>
+            <input class="Button" type="button" id="sess" value="Record">
+            <input class="Button" type="button" id="recPlay" value="RecPlay">
+            <input class="Button" type="button" id="recSave" value="RecSave">
+            &nbsp;&nbsp;
+            <input class="info on" type="button" id="glowBtn" value="Glow">
+            <br>
+            <span class="info" id="Velocity">Vel</span>
+            <span class="info" id="Info">Info</span>
+            <span class="info" id="KeySound">Key</span>
+            <span class="info" id="KeyCnt">000/000</span>
+            <span class="info" id="LEDList">LED</span>
+            <span class="info" id="AutoData">Auto</span>
+            <span class="info on" id="Env"></span>
+            &nbsp;&nbsp;
+            <input class="Button" type="button" id="tutorial" value="How2Use">
+        </div>
+        <img class="tut" style="display:none" src="./img/01.png">
+        <img class="tut" style="display:none" src="./img/02.png">
+        <img class="tut" style="display:none" src="./img/03.png">
+        <img class="tut" style="display:none" src="./img/04.png">
+        <img class="tut" style="display:none" src="./img/05.png">
+        <img class="tut" style="display:none" src="./img/06.png">
+    </body>
+</html>
